@@ -6,11 +6,10 @@ image:
   repository: registry.solarfs.io/ipfs/cid-utils-website
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: "v0.1.1.1"
+  tag: "v0.1.2"
 env:
   - name: TITLE
     value: "cid-utils-website"
-
 envFrom: []
 extraVolumeMounts: #[] # 增加挂载扩展挂载目录
   - mountPath: /etc/localtime
