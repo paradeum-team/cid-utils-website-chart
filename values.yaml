@@ -6,7 +6,7 @@ image:
   repository: registry.solarfs.io/ipfs/cid-utils-website
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: "v0.1.2"
+  tag: "v0.1.3"
 env:
   - name: TITLE
     value: "cid-utils-website"
